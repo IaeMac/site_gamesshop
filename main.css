@@ -4,6 +4,27 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 926px) {
+
+    div{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .store-front{
+        width: 100%;
+    }
+
+    .brands-list img{
+        display: inline;
+    }
+
+    .social-links img{
+        max-width: fit-content;
+    }
+
+  }
+
 header,
 section h2,
 section h3,
